@@ -76,7 +76,7 @@ p {
 #formulario {
     width: 70%;
     margin: auto;
-    margin-top: 320px;
+    margin-top: 200px;
     margin-bottom: 30px;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -124,5 +124,8 @@ p {
 
     #formulario {
         width: 60%;
+        margin: auto;
+        margin-top: 320px;
+        margin-bottom: 30px;
     }
 }
