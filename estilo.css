@@ -38,7 +38,7 @@ a:hover {
 
 h1 {
     padding-top: 30px;
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
     text-decoration: underline;
 }
@@ -99,7 +99,7 @@ p {
     font-size: 18px;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 480px) {
     #contenedorImagen {
         width: 100%;
         padding-bottom: 23%;
@@ -117,10 +117,6 @@ p {
         font-size: 16px;
         padding-top: 6px;
         padding-bottom: 6px;
-    }
-
-    h1 {
-        font-size: 34px;
     }
 
     #formulario {
@@ -142,7 +138,7 @@ p {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     #importante, #ventajas, #costo {
@@ -161,14 +157,30 @@ p {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 32px;
     }
 
     #importante, #ventajas, #costo {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     #formulario {
-        font-size: 30px;
+        font-size: 22px;
+    }
+
+    #footer {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 2000px){
+    #formulario {
+        width: 40%;
+    }
+}
+
+@media (min-width: 2400px){
+    #formulario {
+        width: 35%;
     }
 }
